@@ -6,6 +6,7 @@ from keras.models import load_model
 import base64
 from io import BytesIO
 from PIL import Image
+
 import cv2
 
 sio = socketio.Server()
